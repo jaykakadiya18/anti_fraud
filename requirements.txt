@@ -2,13 +2,16 @@ adam==0.0.0.dev0
 asgiref==3.2.10
 certifi==2020.6.20
 chardet==3.0.4
+dj-database-url==0.5.0
 Django==3.1
+django-heroku==0.3.1
 gunicorn==20.0.4
 heroku==0.1.4
 idna==2.10
 image==1.5.32
 numpy==1.19.1
 Pillow==7.2.0
+psycopg2==2.8.5
 pychannels==1.2.2
 pygame==1.9.6
 python-dateutil==1.5
@@ -18,3 +21,4 @@ sequential==1.0.0
 six==1.15.0
 sqlparse==0.3.1
 urllib3==1.25.10
+whitenoise==5.2.0
