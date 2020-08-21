@@ -25,7 +25,7 @@ SECRET_KEY = 'f7#8otmoqoy!5&6zun0t73%bt%8ut4f(y)l_t6_0#()1v5ll70'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://anti-fraud-tool1.herokuapp.com/"]
 
 
 # Application definition
