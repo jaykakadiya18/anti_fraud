@@ -12,14 +12,14 @@ def verify(request):
     # Get the text
 
     djtext = request.GET.get('text', 'default')
-    print(djtext)
+
     # Analyze the text
 
     lowcase = djtext.lower()
     x = list(map(str, lowcase.split(" ")))
     fmsg = ["send", "account", "hack", "cashless", "phone", "block", "money", "kyc", "office", "hold", "rewards",
             "cashback", "anydesk", "link", "teamviewer", "quicksupport"]
-    print(x)
+
     a = 0
     b = 0
     f = ""
@@ -33,6 +33,6 @@ def verify(request):
         t = "True Message"
     else:
         f = "Fraud Message"
-    print(a, b)
+
     params = {'purpose': t, 'f_msg': f, 'djtext': djtext}
     return render(request, "verify.html", params)
